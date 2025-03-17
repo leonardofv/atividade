@@ -1,0 +1,108 @@
+main {
+    background-color: #202f6f;
+}
+
+.alert {
+    text-align: center;
+    font-size: 3vw;
+    color: #fff;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.sectionCards {
+    // border: 2px solid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+    // margin-top: 100px;
+
+    .card {
+        // border: 2px solid red;
+        width: 400px;
+        // height: 320px;
+        background-color: #3551aed8;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.7vw;
+            color: #fff;
+        }
+
+        .info {
+            // border: 2px solid blue;
+            padding: 0 20px;
+            font-size: 1.1vw;
+            color: #ffffff6c;
+        }
+
+        .linha {
+            border: 1px solid #ffffff56;
+            width: 300px;
+            margin-left: 20px;
+            // margin-top: 40px;
+        }
+    
+        .info2 {
+            // border: 2px solid green;
+            font-size: 1vw;
+            color: #ffffffc4;
+            padding: 0 20px;
+            
+        }
+    }
+    .card:hover {
+        background-color: #3551ae54;
+        transition: 0.5s;
+        cursor: pointer;
+    }   
+}
+
+.ContainerCategory {
+
+    .title {
+        text-align: center;
+        color: #fff;
+        font-size: 2.5vw;
+        margin-top: 50px;
+    }
+
+    .categories {
+        // border: 2px solid red;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        .category {
+            // border: 2px solid;
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: #3551ae85;
+            border-radius: 15px;
+            color: #fff;
+            font-size: 1.2vw;
+            margin: 30px;
+            .Link {
+                // text-decoration: none;
+                color: #fff;
+            }
+        }
+        .category:hover {
+            background-color: #3551ae;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+
+}

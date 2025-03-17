@@ -1,0 +1,71 @@
+.container {
+    // border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #202f6f;
+    padding: 40px;
+
+    .logo {
+        width: 80px;
+    }
+
+    .title {
+        font-size: 40px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .info {
+        font-size: 20px;
+        color: #fff; 
+    }
+
+    .input {
+        width: 30vw;
+        padding: 12px;
+        border-radius: 30px;
+        background-color: #3552ae;
+        color: #fff;
+        border-style: none;
+        font-size: 1.2vw;
+        //lupa
+        background-image: url('../../assets/search_input.png');
+        background-repeat: no-repeat;
+        background-position: calc(100% - 10px);
+        background-size: 2vw;
+        outline: none;
+    }
+    ::-webkit-input-placeholder {
+        color: #fff;;
+    }
+
+    // .search {
+    //     position: relative; /* Contêiner relativo para posicionar o ícone */
+    //     width: 100%; /* Largura total */
+    //     max-width: 400px; /* Largura máxima do campo de busca */
+    //     margin-top: 20px; /* Espaçamento acima do campo de busca */
+    // }
+    
+    // .input {
+    //     width: 100%;
+    //     padding: 10px;
+    //     font-size: 1.2vw; /* Tamanho da fonte */
+    //     border-style: none;
+    //     border-radius: 25px; /* Bordas arredondadas */
+    //     outline: none; /* Remove o contorno ao focar */
+    //     background-color: #3552ae;
+    // }
+    
+    // .icon {
+    //     position: absolute; /* Posicionamento absoluto dentro do contêiner */
+    //     right: 15px; /* Distância da direita */
+    //     top: 50%; /* Alinhamento vertical */
+    //     transform: translateY(-50%); /* Ajuste fino para centralizar verticalmente */
+    //     width: 25px; /* Largura do ícone */
+    //     cursor: pointer;
+    // }
+
+}

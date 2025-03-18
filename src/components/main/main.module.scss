@@ -21,15 +21,16 @@ main {
 
     .card {
         // border: 2px solid red;
-        width: 400px;
-        // height: 320px;
+        width: 500px;
+        height: 450px;
         background-color: #3551aed8;
         border-radius: 10px;
         padding: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: 20px;
+        gap: 15px;
+        padding: 20px;
 
         .title {
             text-align: center;
@@ -41,7 +42,7 @@ main {
         .info {
             // border: 2px solid blue;
             padding: 0 20px;
-            font-size: 1.1vw;
+            font-size: 1vw;
             color: #ffffff6c;
         }
 

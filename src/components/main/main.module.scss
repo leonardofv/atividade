@@ -8,19 +8,25 @@ main {
     color: #fff;
     padding: 30px;
     font-weight: bold;
+    @media (max-width: 600px) {
+        font-size: 5vw;
+    }
 }
 
 .sectionCards {
-    // border: 2px solid;
+    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
     gap: 40px;
     // margin-top: 100px;
+    @media (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr)
+    }
 
     .card {
-        // border: 2px solid red;
+        border: 2px solid red;
         width: 500px;
         height: 450px;
         background-color: #3551aed8;
@@ -31,12 +37,20 @@ main {
         justify-content: space-between;
         gap: 15px;
         padding: 20px;
+        @media (max-width: 600px) {
+            width: 300px;
+            height: 250px;
+            padding: 15px 0;
+        }
 
         .title {
             text-align: center;
             font-weight: bold;
             font-size: 1.7vw;
             color: #fff;
+            @media (max-width: 600px) {
+                font-size: 3.5vw;
+            }
         }
 
         .info {
@@ -44,6 +58,9 @@ main {
             padding: 0 20px;
             font-size: 1vw;
             color: #ffffff6c;
+            @media (max-width: 600px) {
+                font-size: 2.6vw;
+            }
         }
 
         .linha {
@@ -51,6 +68,9 @@ main {
             width: 300px;
             margin-left: 20px;
             // margin-top: 40px;
+            @media (max-width: 600px) {
+                width: 200px;
+            }
         }
     
         .info2 {
@@ -58,6 +78,9 @@ main {
             font-size: 1vw;
             color: #ffffffc4;
             padding: 0 20px;
+            @media (max-width: 600px) {
+                font-size: 2.1vw;
+            }
             
         }
     }
@@ -75,15 +98,21 @@ main {
         color: #fff;
         font-size: 2.5vw;
         margin-top: 50px;
+        @media (max-width: 600px) {
+            font-size: 5vw;
+        }
     }
 
     .categories {
-        // border: 2px solid red;
+        border: 2px solid red;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
+        @media (max-width: 600px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
         .category {
-            // border: 2px solid;
+            border: 2px solid green;
             width: 400px;
             height: 100px;
             display: flex;
@@ -94,9 +123,17 @@ main {
             color: #fff;
             font-size: 1.2vw;
             margin: 30px;
+            @media (max-width: 600px) {
+                width: 150px;
+                height: 50px;
+                margin: 12px;
+            }
             .Link {
                 // text-decoration: none;
                 color: #fff;
+                @media (max-width: 600px) {
+                   font-size: 1.9vw;
+                }
             }
         }
         .category:hover {

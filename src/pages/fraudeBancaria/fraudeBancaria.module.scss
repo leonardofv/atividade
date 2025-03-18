@@ -21,7 +21,7 @@
 .containerOqueFazer,
 .containerEx {
     background-color: #fff;
-    width: 90%;
+    width: 80%;
     border-radius: 15px;
     padding: 20px;
     .titleDefinicao,
@@ -42,5 +42,15 @@
             padding: 0 20px;
             font-size: 1.2vw;
         }
+    }
+    .infoDefinicao,
+    .ex,
+    .infos,
+    .sinais,
+    .dicas,
+    .fazer {
+        // border: 2px solid red;
+        font-size: 1vw;
+        margin: 25px;
     }
 }

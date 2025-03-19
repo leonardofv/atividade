@@ -7,6 +7,8 @@ export default function Phishing() {
 
             <h1 className={S.title}>Phishing</h1>
 
+                
+
                 <section className={S.containerDefinicao}>
                     <h2 className={S.titleDefinicao}>Definição</h2>
                     <p className={S.infoDefinicao}>O phishing é um tipo de golpe no qual os criminosos se passam por empresas ou instituições confiáveis para enganar as vítimas e roubar informações sensíveis, como senhas e dados bancários.</p>

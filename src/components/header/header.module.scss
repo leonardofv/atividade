@@ -24,7 +24,7 @@
 
     .input {
         width: 30vw;
-        padding: 20px;
+        padding: 10px 20px;
         border-radius: 30px;
         background-color: #3552ae;
         color: #fff;
@@ -51,15 +51,20 @@
         width: 100%;
         .categories {
             // border: 2px solid red;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            justify-items: center;
+            gap: 30px;
             .category {
                 border: 1px solid #fff;
                 background-color: #fff;
                 color: #fff;
-                border-radius: 20px;
+                border-radius: 8px;
                 padding: 8px 20px;
+                width: 200px;
+                display: flex;
+                justify-content: center;
                 .Link {
                     // text-decoration: none;
                     color: #202f6f;

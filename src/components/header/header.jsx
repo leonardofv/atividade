@@ -20,19 +20,19 @@ export default function Header() {
                 <h1 className={S.title}>CyberSegurança</h1>
                 <p className={S.info}>Protegendo você contra os golpes digitais</p>
 
-                <div className={S.search}>
-                    <input className={S.input} type='text' placeholder='Pesquisar golpes'/>
+                {/* <div className={S.search}> */}
+                    {/* <input className={S.input} type='text' placeholder='Pesquisar golpes'/> */}
                     {/* <img className={S.icon} src={Search} alt="" /> */}
-                </div>
+                {/* </div> */}
         
                 <nav className={S.ContainerCategory}>
                     <ul className={S.categories}>
                         <li className={S.category}><Link className={S.Link} to="/">Home</Link></li>
                         <li className={S.category}><Link className={S.Link} to="/phishing">Phishing</Link></li>
                         <li className={S.category}><Link className={S.Link}  to="/ransomware">Ransomware</Link></li>
-                        <li className={S.category}><Link className={S.Link}  to="/golpeRedeSocial">redes sociais</Link></li>
+                        <li className={S.category}><Link className={S.Link}  to="/golpeRedeSocial">Redes sociais</Link></li>
                         <li className={S.category}><Link className={S.Link}  to="/fraudeBancaria">Fraudes bancárias</Link></li>
-                        <li className={S.category}><Link className={S.Link}  to="/golpeCompras">compras online</Link></li>
+                        <li className={S.category}><Link className={S.Link}  to="/golpeCompras">Compras online</Link></li>
                         <li className={S.category}><Link className={S.Link}  to="/rouboIdentidade">Roubo de identidade</Link></li>
                     </ul>
                 </nav>

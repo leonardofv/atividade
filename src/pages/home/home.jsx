@@ -1,16 +1,8 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import S from './main.module.scss';
 
-import Phishing from '../../pages/phishing/phishing';
-import Ransomware from '../../pages/ransomware/ransomware';
-import GolpeRedeSocial from '../../pages//golpeRedeSocial/golpeRedeSocial';
-import FraudeBancaria from '../../pages/fraudeBancaria/fraudeBancaria';
-import GolpeCompras from '../../pages/golpesCompras/golpeCompras';
-import RouboIdentidade from '../../pages/rouboIdentidade/rouboIdentidade';
+import S from './home.module.scss'
 
-export default function Main() {
+export default function Home() {
     return (
-        <BrowserRouter>
             <main>
                 <h1 className={S.alert}>Alertas</h1>
                 <section className={S.sectionCards}>
@@ -71,6 +63,5 @@ export default function Main() {
                 </section>
                 
             </main>
-        </BrowserRouter>
     )
 }

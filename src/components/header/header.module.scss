@@ -1,13 +1,12 @@
 .container {
-    // border: 2px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
     background-color: #202f6f;
-    padding: 40px;
-
+    padding: 40px 20px 0 20px;
+    border-bottom: 1px solid #fff;
     .logo {
         width: 80px;
     }
@@ -21,33 +20,59 @@
     .info {
         font-size: 2.5vw;
         color: #fff;
+    }
+
+    .input {
+        width: 30vw;
+        padding: 20px;
+        border-radius: 30px;
+        background-color: #3552ae;
+        color: #fff;
+        border-style: none;
+        font-size: 1.2vw;
+        //lupa
+        background-image: url('../../assets/search_input.png');
+        background-repeat: no-repeat;
+        background-position: calc(100% - 10px);
+        background-size: 2vw;
+        outline: none;
         @media(max-width: 600px) {
-            font-size: 4vw; 
-        } 
+            display: none
+        }
+    }
+    ::-webkit-input-placeholder {
+        color: #fff;;
     }
 
 
     .ContainerCategory {
-        // border: 2px solid green;
+        margin: 50px 0 30px 0;
+        // border: 1px solid green;
         width: 100%;
         .categories {
             // border: 2px solid red;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
             .category {
-                // border: 2px solid #fff;
+                border: 1px solid #fff;
+                background-color: #fff;
                 color: #fff;
-                padding: 10px;
-
-        
+                border-radius: 20px;
+                padding: 8px 20px;
                 .Link {
                     // text-decoration: none;
+                    color: #202f6f;
+                    font-size: 1.1vw;
+                    font-weight: bold;
+                }
+                .Link:hover {
                     color: #fff;
+                    transition: 0.5s;
                 }
             }
             .category:hover {
-                background-color: #3551ae;
+                background-color: #202f6f;
                 transition: 0.5s;
                 cursor: pointer;
             }

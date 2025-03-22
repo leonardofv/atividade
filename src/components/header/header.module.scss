@@ -27,7 +27,7 @@
         // border: 1px solid green;
         width: 100%;
         .categories {
-            // border: 2px solid red;
+            border: 2px solid red;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -40,6 +40,7 @@
                 width: 180px;
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 .Link {
                     // text-decoration: none;
                     color: #202f6f;

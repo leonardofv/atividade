@@ -5,7 +5,7 @@ import S from '../home/video.module.scss';
 const Video = () => {
 
       return (
-         <div className={S.video}>
+         <div className={S.containerVideo}>
             <ReactPlayer
                url='https://www.youtube.com/watch?v=m7l1T9dDSxw&ab_channel=TIMESBRASIL-LICENCIADOEXCLUSIVOCNBC'
                controls

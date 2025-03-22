@@ -70,25 +70,6 @@ export default function Main() {
                     </article>
                 </section>
                 
-                <section className={S.ContainerCategory}>
-                    <h1 className={S.title}>Categoria de Golpes</h1>
-                    <div className={S.categories}>
-                        <div className={S.category}><Link className={S.Link} to="/phishing">Phishing</Link></div>
-                        <div className={S.category}><Link className={S.Link}  to="/ransomware">Ransomware</Link></div>
-                        <div className={S.category}><Link className={S.Link}  to="/golpeRedeSocial">Golpes em redes sociais</Link></div>
-                        <div className={S.category}><Link className={S.Link}  to="/fraudeBancaria">Fraudes bancárias</Link></div>
-                        <div className={S.category}><Link className={S.Link}  to="/golpeCompras">Golpes em compras online</Link></div>
-                        <div className={S.category}><Link className={S.Link}  to="/rouboIdentidade">Roubo de identidade</Link></div>
-                    </div>
-                </section>
-                    <Routes>
-                        <Route path="/phishing" element={<Phishing />} />
-                        <Route path="/ransomware" element={<Ransomware />} />
-                        <Route path="/golpeRedeSocial" element={<GolpeRedeSocial />} />
-                        <Route path="/fraudeBancaria" element={<FraudeBancaria />} />
-                        <Route path="/golpeCompras" element={<GolpeCompras />} />
-                        <Route path="/rouboIdentidade" element={<RouboIdentidade />} /> 
-                    </Routes>
             </main>
         </BrowserRouter>
     )

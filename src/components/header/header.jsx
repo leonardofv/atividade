@@ -15,8 +15,8 @@ function Header() {
     const menuItems = [
         { path: '/phishing', label: 'Phishing' },
         { path: '/ransomware', label: 'Ransomware' },
-        { path: '/golpeRedeSocial', label: 'Redes sociais' },
-        { path: '/fraudeBancaria', label: 'Fraudes bancárias' },
+        { path: '/golpeRedeSocial', label: 'Redes Sociais' },
+        { path: '/fraudeBancaria', label: 'Fraude' },
         { path: '/golpeCompras', label: 'Compras online' },
         { path: '/rouboIdentidade', label: 'Roubo de identidade' },
     ];

@@ -24,10 +24,10 @@
 
     .ContainerCategory {
         margin: 50px 0 30px 0;
-        // border: 1px solid green;
+        border: 1px solid green;
         width: 100%;
         .categories {
-            border: 2px solid red;
+            // border: 2px solid red;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -36,7 +36,7 @@
                 background-color: #fff;
                 color: #fff;
                 border-radius: 8px;
-                padding: 8px 20px;
+                padding: 8px 15px;
                 width: 180px;
                 display: flex;
                 justify-content: center;

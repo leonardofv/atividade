@@ -23,8 +23,8 @@
     }
 
     .ContainerCategory {
-        margin: 50px 0 30px 0;
-        border: 1px solid green;
+        margin: 30px 0 20px 0;
+        // border: 1px solid green;
         width: 100%;
         .categories {
             // border: 2px solid red;
@@ -36,11 +36,9 @@
                 background-color: #fff;
                 color: #fff;
                 border-radius: 8px;
-                padding: 8px 15px;
-                width: 180px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                padding: 5px 10px;
+                width: 150px;
+                text-align: center;
                 .Link {
                     // text-decoration: none;
                     color: #202f6f;

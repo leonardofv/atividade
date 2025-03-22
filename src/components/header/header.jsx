@@ -17,8 +17,8 @@ function Header() {
         { path: '/ransomware', label: 'Ransomware' },
         { path: '/golpeRedeSocial', label: 'Redes Sociais' },
         { path: '/fraudeBancaria', label: 'Fraude' },
-        { path: '/golpeCompras', label: 'Compras online' },
-        { path: '/rouboIdentidade', label: 'Roubo de identidade' },
+        { path: '/golpeCompras', label: 'Compras' },
+        { path: '/rouboIdentidade', label: 'Identidade' },
     ];
 
     return (

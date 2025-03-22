@@ -90,56 +90,96 @@ main {
     }   
 }
 
-.ContainerCategory {
+//----Proteja-se
 
-    .title {
-        text-align: center;
-        color: #fff;
-        font-size: 2.5vw;
-        margin-top: 50px;
-        @media (max-width: 600px) {
-            font-size: 5vw;
-        }
+
+.protectionTips {
+    background-color: #f8f9fa;
+    padding: 4rem 2rem;
+    margin-top: 3rem;
+}
+
+.tipsHeader {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.tipsTitle {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.tipsSubtitle {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #e74c3c;
+    font-weight: 600;
+}
+
+.tipsAction {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.tipsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.tipCard {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
     }
+}
 
-    .categories {
-        // border: 2px solid red;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
-        @media (max-width: 600px) {
-            grid-template-columns: repeat(2, 1fr);
-        }
-        .category {
-            // border: 2px solid green;
-            width: 400px;
-            height: 100px;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            background-color: #3551ae85;
-            border-radius: 15px;
-            color: #fff;
-            font-size: 1.2vw;
-            margin: 30px;
-            @media (max-width: 600px) {
-                width: 150px;
-                height: 50px;
-                margin: 12px;
-            }
-            .Link {
-                // text-decoration: none;
-                color: #fff;
-                @media (max-width: 600px) {
-                   font-size: 1.9vw;
-                }
-            }
-        }
-        .category:hover {
-            background-color: #3551ae;
-            transition: 0.5s;
-            cursor: pointer;
-        }
+.tipTitle {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3498db;
+}
+
+.tipContent {
+    color: #495057;
+    line-height: 1.6;
+    font-size: 1rem;
+
+    p {
+        margin: 0;
     }
+}
 
+// Responsividade
+@media (max-width: 768px) {
+    .protectionTips {
+        padding: 2rem 1rem;
+    }
+    
+    .tipsTitle {
+        font-size: 2rem;
+    }
+    
+    .tipsSubtitle {
+        font-size: 1rem;
+    }
 }

@@ -10,7 +10,7 @@ const Video = () => {
                url='https://www.youtube.com/watch?v=m7l1T9dDSxw&ab_channel=TIMESBRASIL-LICENCIADOEXCLUSIVOCNBC'
                controls
                width='70%'
-               height='600px'
+               height='500px'
             />
          </div>
       )
